@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/chappg
+# catalog-date 2009-05-30 13:37:26 +0200
+# catalog-license lppl
+# catalog-version 2.1b
 Name:		texlive-chappg
 Version:	2.1b
 Release:	1
@@ -42,6 +48,7 @@ backmatter in book class.
 #- source
 %doc %{_texmfdistdir}/source/latex/chappg/chappg.dtx
 %doc %{_texmfdistdir}/source/latex/chappg/chappg.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ backmatter in book class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
