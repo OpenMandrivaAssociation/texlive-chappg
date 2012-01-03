@@ -6,7 +6,7 @@
 # catalog-version 2.1b
 Name:		texlive-chappg
 Version:	2.1b
-Release:	1
+Release:	2
 Summary:	Page numbering by chapter
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chappg
