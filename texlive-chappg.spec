@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Page numbering by chapter
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chappg
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chappg
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chappg.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chappg.doc.r%{version}.tar.xz
